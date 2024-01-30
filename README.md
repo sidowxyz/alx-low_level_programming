@@ -10,17 +10,12 @@
 * **Tested:** Functionality verified through rigorous testing practices.
 
 **Folder Structure:**
-
-| Folder       | Description                                         |
-|--------------|-----------------------------------------------------|
-| 0x00-hello_world | Introduction to C syntax and basic output           |
-| 0x01-variables_if_else_while | Variables, conditional statements, and loops |
-| ...            | (More folders corresponding to ALX projects)      |
-| 0x13-more_singly_linked_lists | Further exploration of linked lists |
+* **0x00-hello_world:** Introduction to C syntax and basic output
+* **0x01-variables_if_else_while:** Variables, conditional statements, and loops
 
 **Getting Started:**
 
-1. **Clone:** Use `git clone https://github.com/elpacificmb/alx-low_level_programming.git` to clone this repository.
+1. **Clone:** Use ```git clone https://github.com/elpacificmb/alx-low_level_programming.git``` to clone this repository.
 2. **Navigate:** Enter the desired project folder (e.g., `cd 0x00-hello_world`).
 3. **Compile:** Use a C compiler (like GCC) to compile: `gcc *.c -o main`.
 4. **Run:** Execute the compiled program: `./main`.
