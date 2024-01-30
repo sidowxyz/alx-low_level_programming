@@ -14,13 +14,12 @@
 * **0x01-variables_if_else_while:** Variables, conditional statements, and loops
 
 **Getting Started:**
-
-1. **Clone:** Use ```git clone https://github.com/elpacificmb/alx-low_level_programming.git``` to clone this repository.
+```
+1. **Clone:** Use `git clone https://github.com/elpacificmb/alx-low_level_programming.git` to clone this repository.
 2. **Navigate:** Enter the desired project folder (e.g., `cd 0x00-hello_world`).
 3. **Compile:** Use a C compiler (like GCC) to compile: `gcc *.c -o main`.
 4. **Run:** Execute the compiled program: `./main`.
-
-**Contribution:**
+``` **Contribution:**
 
 Feedback and contributions are highly appreciated! Submit pull requests for enhancements or corrections.
 
