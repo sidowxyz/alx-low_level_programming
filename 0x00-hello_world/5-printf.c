@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- * using printf to print C program 
+ * using printf 
  * followed new line
  * Return 0
  */
