@@ -3,8 +3,10 @@
 #include <stdio.h>
 
 /**
- * main - main block
- * Description: Print statements based on the last digit of the random number.
+ * main - entry point
+ *
+ * followed by new line
+ *
  * Return: 0
  */
 
