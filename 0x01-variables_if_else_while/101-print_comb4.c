@@ -9,28 +9,26 @@
  */
 int main(void)
 {
-	int j, k, l;
+	int i, j, k;
 
-	for (j = 48; j < 58; j++)
+	for (i = 0; i < 10; i++)
 	{
-		for (k = 50; k < 58; k++)
+		for (j = i + 1; j < 10; j++)
 		{
-			for (l = 50; 1 < 58; l++)
+			for (k = j + 1; k < 10; k++)
 			{
-				if (l > k && > j)
+				putchar('0' + i);
+				putchar('0' + j);
+				putchar('0' + k);
+
+				if (!(i == 7 && j == 8 && k == 9))
 				{
-					putchar(j);
-					putchar(k);
-					puchar(l);
-					if (n != 55 || m != 56)
-					{
-						putchar(',');
-						putchar(' ');
-					}
+					putchar(',')
 				}
 			}
 		}
 	}
+
 	putchar('\n');
 	return (0);
 }
