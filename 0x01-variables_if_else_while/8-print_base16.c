@@ -9,8 +9,8 @@
  */
 int main(void)
 {
-	int n = 0;
 	char c = 'a';
+	int n = 0;
 
 	while (c <= 'f')
 	{
@@ -19,7 +19,7 @@ int main(void)
 	}
 	while (n <= 10)
 	{
-		putchar(n);
+		putchar('0' + n);
 		n++;
 	}
 
