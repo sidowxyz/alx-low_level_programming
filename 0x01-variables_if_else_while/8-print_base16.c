@@ -9,20 +9,17 @@
  */
 int main(void)
 {
-	char c = 'a';
-	int n = 0;
+	int n;
+	char ch;
 
-	while (c <= 'f')
+	for (n = 48; n < 58; n++)
 	{
-		putchar(c);
-		c++;
+		putchar(n);
 	}
-	while (n <= 10)
+	for (ch = 'a'; ch <= 'f'; ch++)
 	{
-		putchar('0' + n);
-		n++;
+		putchar(ch);
 	}
-
 	putchar('\n');
 	return (0);
 }
