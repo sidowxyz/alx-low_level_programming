@@ -3,22 +3,18 @@
 /**
  * main - entry point
  *
- * Description: Prints the lowercase alphabet in reverse order,
- * followed by a new line.
+ * followed by a newline
  *
  * Return: 0
  */
 int main(void)
 {
-    char c = 'z';
+	char c;
 
-    while (c >= 'a')
-    {
-        putchar(c);
-        c--;
-    }
-
-    putchar('\n');
-    return (0);
+	for (c = 'z'; c >= 'a'; c--)
+	{
+		putchar(c);
+	}
+	putchar('\n');
+	return (0);
 }
-
