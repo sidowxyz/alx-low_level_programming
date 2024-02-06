@@ -9,26 +9,21 @@
  */
 int main(void)
 {
-	int x, y, z;
+	int x, y;
 
 	for (x = 0; x <= 8; x++)
 	{
 		for (y = x + 1; y < 9; y++)
 		{
-			for (z = y + 1; z < 10; z++)
+			putchar('0' + x);
+			putchar(0) + y);
+			if (x <  7)
 			{
-				putchar('0' + x);
-				putchar('0' + y);
-				putchar('0' + z);
-				if (x < 7)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
-	putchar('n');
-
+	putchar('\n');
 	return (0);
 }
