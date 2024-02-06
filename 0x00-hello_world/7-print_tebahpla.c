@@ -1,19 +1,20 @@
 #include <stdio.h>
+
 /**
  * main - entry point
  *
- * followed by new line
+ * followed by a new line
  *
- * return: 0
+ * Return: 0
  */
 
 int main(void)
 {
-	char c;
+	char ch;
 
-	for (c = 'z'; c >= 'a'; c--)
+	for (ch = 'z'; ch >= 'a'; ch--)
 	{
-		putchar(c);
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
