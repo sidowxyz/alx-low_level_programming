@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- *
- * followed by a new line
- *
- * Return: 0
- */
+* main - entry point
+*
+* followed by a new line
+*
+* Return: 0
+*/
 
 int main(void)
 {
