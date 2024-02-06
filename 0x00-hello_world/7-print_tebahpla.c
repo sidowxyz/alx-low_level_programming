@@ -1,11 +1,10 @@
 #include <stdio.h>
-
 /**
  * main - entry point
  *
- * followed by a new line
+ * followed by new line
  *
- * Return: 0
+ * return: 0
  */
 
 int main(void)
