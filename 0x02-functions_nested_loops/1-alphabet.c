@@ -1,5 +1,6 @@
 #include "main.h"
 
+
 /**
  * print_alphabet - prints the alphabet,
  *
@@ -13,14 +14,9 @@ void print_alphabet(void)
 {
 	char c = 'a';
 
-	while (c <= 'z')
+	for (c <= 'z'; c++)
 	{
-		printf("%c", c);
-		c++
+		_putchar(c);
 	}
-}
-int main(void)
-{
-	print_alphabet();
-	return (0);
+	_putchar('\n');
 }
