@@ -18,3 +18,12 @@ int print_last_digit(int n)
 	printf("%d", last_digit);
 	return (last_digit);
 }
+
+int main(void)
+{
+	print_last_digit(8);
+	print_last_digit(8);
+
+	print("\n");
+	return (0);
+}
