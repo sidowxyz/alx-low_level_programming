@@ -24,6 +24,6 @@ int main(void)
 	print_last_digit(8);
 	print_last_digit(8);
 
-	print("\n");
+	printf("\n");
 	return (0);
 }
