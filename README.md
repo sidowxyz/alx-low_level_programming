@@ -15,7 +15,7 @@
 
 **Getting Started:**
 
-1. **Clone:** Use `git clone https://github.com/elpacificmb/alx-low_level_programming.git` to clone this repository.
+1. **Clone:** Use `git clone https://github.com/sidowxyz/alx-low_level_programming.git` to clone this repository.
 2. **Navigate:** Enter the desired project folder (e.g., `cd 0x00-hello_world`).
 3. **Compile:** Use a C compiler (like GCC) to compile: `gcc *.c -o main`.
 4. **Run:** Execute the compiled program: `./main`.
@@ -32,3 +32,4 @@ Feel free to reach out to me on GitHub for any questions or discussions.
 - This repository is continuously updated as I progress through the ALX program.
 - The projects adhere to good coding practices and coding style guidelines.
 - Feel free to use these projects as learning resources or references.
+0x01-variables_if_else_while
